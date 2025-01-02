@@ -1,0 +1,51 @@
+is it possible of embaded tomcat server in spring boot
+Yes, server.port=port_number
+
+Can we override or replace the embadded tomcat server in spring boot
+Yes
+
+difference between @SpringBootApplication and @EnableAutoConfiguration
+@SpringBootApplication = @Configuration + @EnableAutoConfiguration + @ConponentScan
+
+How to disable specific auto-configuration class
+@EnableAutoConfiguration(exclude={className})
+
+Difference between @Controller and @RestCotroller
+@Controller -> Map of model object to view or template (Used to return view for human readable)
+@RestCotroller -> return object and object data directly (convert into JSON or XML) @RestController = @Controller + @ResponseBody
+
+
+Difference between @RequestMapping and @GetMapping
+@RequestMapping -> can be used with any request mapping
+@GetMapping -> Used only for get mapping
+
+ What are Profiles in Spring Boot?
+
+What is spring actuator --> Neet to prepare
+
+Swagger in Spring Boot
+
+What differentiates JPA and Hibernate?
+
+
+What are the Spring Boot starters and what are available the starters?
+Spring Boot starters are a set of convenient dependency management providers that can be used in the application to enable dependencies.
+available starters come under the org.springframework.boot group.
+spring-boot-starter: – This is the core starter and includes logging, auto-configuration support, and YAML.
+spring-boot-starter-jdbc – This starter is used for HikariCP connection pool with JDBC
+spring-boot-starter-web – Is the starter for building web applications, including RESTful, applications using Spring MVC
+spring-boot-starter-data-jpa – Is the starter to use Spring Data JPA with Hibernate
+spring-boot-starter-security – Is the starter used for Spring Security
+spring-boot-starter-aop: This starter is used for aspect-oriented programming with AspectJ and  Spring AOP
+spring-boot-starter-test: Is the starter for testing Spring Boot applications
+
+
+Can we use application property values in class and how
+
+
+
+
+
+
+
+
